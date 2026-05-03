@@ -227,6 +227,7 @@ GEM
     observer (0.1.2)
     open-uri (0.5.0)
       stringio
+    ostruct (0.6.3)
       time
       uri
     ostruct (0.6.3)
