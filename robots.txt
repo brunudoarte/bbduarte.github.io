@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://brun0duarte.github.io/sitemap.xml
