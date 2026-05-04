@@ -25,16 +25,16 @@ The most efficient way to compute Fibonacci numbers is using an iterative approa
 
 long long fibonacci(int n) {
     if (n <= 1) return n;
-    
+
     long long prev = 0;
     long long curr = 1;
-    
+
     for (int i = 2; i <= n; ++i) {
         long long next = prev + curr;
         prev = curr;
         curr = next;
     }
-    
+
     return curr;
 }
 
@@ -58,7 +58,7 @@ std::vector<long long> memo;
 long long fib_memo(int n) {
     if (n <= 1) return n;
     if (memo[n] != -1) return memo[n];
-    
+
     memo[n] = fib_memo(n - 1) + fib_memo(n - 2);
     return memo[n];
 }

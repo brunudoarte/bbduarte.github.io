@@ -15,7 +15,6 @@ profile:
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
 ---
 
 I am a Software Engineering student at the **University of Brasília (UnB)** with a strong background in Physics, which I studied for two years before transitioning to engineering. My technical interests are broad and deeply rooted in both the theoretical and practical aspects of computation.
